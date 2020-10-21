@@ -71,14 +71,6 @@ events:
       subject: Deposit Accepted
       template_path: deposit_accepted.en.html.erb
 
-- name: Session Create
-  key: session.create
-  exchange: barong_system
-  templates:
-    EN:
-      subject: New Login
-      template_path: session_create.en.html.erb
-
 - name: Withdrawal Succeed
   key: withdraw.updated
   exchange: peatio
